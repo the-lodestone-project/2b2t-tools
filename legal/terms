@@ -1,0 +1,1218 @@
+<!DOCTYPE html><html lang="en-US">
+<!-- Mirrored from evervault.com/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Dec 2023 21:30:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charSet="utf-8"/><title>Terms of Service | evervault</title><meta name="description" content="evervault provides developers with world-class infrastructure to solve complex data security and compliance problems in days, not months."/><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/><meta name="theme-color" content="#63e"/><link rel="icon" type="image/png" href="../favicon.png"/><link rel="apple-touch-icon" href="../logo192.png"/><link rel="manifest" href="../manifest.json"/><link rel="preconnect" href="../../fonts.googleapis.com/index.html"/><link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin="true"/><meta property="og:title" content="Terms of Service | evervault"/><meta property="og:description" content="evervault provides developers with world-class infrastructure to solve complex data security and compliance problems in days, not months."/><meta property="og:image" content="../social/og.jpg"/><meta property="og:site_name" content="evervault"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@evervault"/><meta name="twitter:creator" content="@evervault"/><meta name="twitter:title" content="Terms of Service | evervault"/><meta name="twitter:description" content="evervault provides developers with world-class infrastructure to solve complex data security and compliance problems in days, not months."/><meta name="twitter:image" content="../social/og.jpg"/><meta name="twitter:image:alt" content="Terms of Service | evervault"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"evervault","legalName":"evervault Inc.","url":"https://evervault.com","logo":{"@context":"http://schema.org","@type":"ImageObject","width":"512","height":"512","url":"https://evervault.com/logo.png"},"sameAs":["https://www.linkedin.com/company/evervault/","https://twitter.com/evervault/","https://github.com/evervault/","https://angel.co/company/evervault"],"address":{"@type":"PostalAddress","addressLocality":"Dublin","addressCountry":"IE"}}</script><meta name="next-head-count" content="23"/><link rel="preload" href="../_next/static/media/c9a5bc6a7c948fb0-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="../_next/static/media/56043a0e5c852099-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="../_next/static/media/92f44bb82993d879-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="../_next/static/css/6a60862e0c4da443.css" as="style" crossorigin=""/><link rel="stylesheet" href="../_next/static/css/6a60862e0c4da443.css" crossorigin="" data-n-g=""/><link rel="preload" href="../_next/static/css/79c395fc5ceb741c.css" as="style" crossorigin=""/><link rel="stylesheet" href="../_next/static/css/79c395fc5ceb741c.css" crossorigin="" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="../_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="../_next/static/chunks/webpack-625d7da2597f7748.js" defer="" crossorigin=""></script><script src="../_next/static/chunks/framework-6bebfc9ed2a9de04.js" defer="" crossorigin=""></script><script src="../_next/static/chunks/main-10cdab7653fdbb69.js" defer="" crossorigin=""></script><script src="../_next/static/chunks/pages/_app-a20e50649119da38.js" defer="" crossorigin=""></script><script src="../_next/static/chunks/pages/legal/terms-ead363fd941b5796.js" defer="" crossorigin=""></script><script src="../_next/static/ItJgTdajpMhd2ZWMz8T7d/_buildManifest.js" defer="" crossorigin=""></script><script src="../_next/static/ItJgTdajpMhd2ZWMz8T7d/_ssgManifest.js" defer="" crossorigin=""></script><style id="__jsx-undefined">
+  :root {
+    --system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+    --font-family-base: '__Inter_e66fe9', '__Inter_Fallback_e66fe9', var(--system-fonts);
+    --font-family-headings: '__roobert_30c87b', '__roobert_Fallback_30c87b', var(--system-fonts);
+    --font-family-monospace: '__Roboto_Mono_829659', '__Roboto_Mono_Fallback_829659', monospace;
+  }
+</style></head><body><div id="__next"><div style="position:fixed;z-index:9999;top:32px;left:32px;right:32px;bottom:32px;pointer-events:none"></div><header class="Header_header__pXml_" data-light-theme="false"><img src="../images/logo-white.svg" class="Header_logo__sUWiP"/><img src="../images/icon-white.svg" class="Header_logoMobile__MEikt"/><nav aria-label="Main" data-orientation="horizontal" dir="ltr" class="Navigation_navigation__SaCR1"><div class="Navigation_island__hx7CL"><div style="position:relative"><ul data-orientation="horizontal" class="Navigation_navbar__drXfa" dir="ltr"><li class="Navigation_item__hApMP"><a class="Navigation_link__p_0Vi" data-radix-collection-item="" href="../index.html">Home</a></li><li class="Navigation_item__hApMP"><button id="radix-:R3ifm:-trigger-radix-:R2crifm:" data-state="closed" aria-expanded="false" aria-controls="radix-:R3ifm:-content-radix-:R2crifm:" class="Navigation_trigger__w4v0H" data-radix-collection-item="">Solutions</button></li><li class="Navigation_item__hApMP"><a class="Navigation_link__p_0Vi" data-radix-collection-item="" href="../%5b%5b...customer%5d%5d">Customers</a></li><li class="Navigation_item__hApMP"><a class="Navigation_link__p_0Vi" data-radix-collection-item="" href="../pricing">Pricing</a></li><li class="Navigation_item__hApMP"><button id="radix-:R3ifm:-trigger-radix-:R5crifm:" data-state="closed" aria-expanded="false" aria-controls="radix-:R3ifm:-content-radix-:R5crifm:" class="Navigation_trigger__w4v0H" data-radix-collection-item="">Resources</button></li><li class="Navigation_item__hApMP"><a class="Navigation_link__p_0Vi" data-radix-collection-item="" href="https://docs.evervault.com/">Docs</a></li></ul></div></div><div class="Navigation_viewportPosition__zEjBF"></div></nav><div class="Header_group__Kgpdq"><a class="Button_container__i_Vit" href="https://app.evervault.com/login" data-size="regular" data-type="transparent" data-pulse="false" tabindex="0">Log in</a><a class="Button_container__i_Vit" data-size="regular" data-type="primary" data-pulse="false" tabindex="0">API docs</a><button class="Header_hamburger__X_hhy"><svg width="14" height="12" viewBox="0 0 14 12" fill="none"><path d="M0 1H14" stroke="white"></path><path d="M0 6H14" stroke="white"></path><path d="M0 11H14" stroke="white"></path></svg></button></div></header><div class="Layout_layout__6J70X"><main class="Layout_main__k2ohw"><section class="Hero_hero__Q5FaL"><div class="container"><div class="row justify-content-center"><div class="col-12"><h1 class="Hero_title__JisBU">Terms of Service</h1><h3 class="Hero_subtitle__sB1Gj">Legal</h3>Last updated / November / 2023</div></div></div></section><section class="Text_prose___eH_n"><article class="container"><div class="row justify-content-center"><div class="col-md-9 mb-64"><ol>
+<li>
+<p><strong>Overview of this Agreement</strong></p>
+<ol>
+<li>
+<p>This evervault Services Agreement (&quot;<strong>Agreement</strong>&quot;) is a legal
+agreement between evervault Limited (&quot;<strong>evervault</strong>&quot;, &quot;<strong>us</strong>&quot;,
+or &quot;<strong>we</strong>&quot;) and the entity or person (&quot;<strong>Customer</strong>&quot;,
+&quot;<strong>you</strong>&quot;, &quot;<strong>your</strong>&quot;, or &quot;<strong>user</strong>&quot;) who registered on the
+evervault Account page to receive certain data preserving,
+technology and other business services that may be offered by
+evervault and its affiliates including evervault websites (each,
+a &quot;<strong>Service</strong>&quot;). This Agreement describes the terms and
+conditions that apply to your use of the Services. If you do not
+understand any of the terms of this Agreement, please contact us
+before using the Services. Before using the Services, you must
+register with evervault and create an account (an &quot;<strong>evervault
+Account</strong>&quot;).</p>
+</li>
+<li>
+<p><strong>By creating an evervault Account or by accessing or using the
+Services, you acknowledge and agree that you have read,
+understand and agree to be bound by this Agreement. You further
+acknowledge and agree that you have read and understand our
+Privacy Policy. If you do not agree to the terms and conditions
+of this Agreement, please do not access or use the Services.</strong></p>
+</li>
+<li>
+<p>We may amend or update the terms of this Agreement at any time,
+solely with prospective effect or change, delete, discontinue,
+or impose conditions on use of the Services by posting such
+changes on our website or any other website we maintain or own.
+We will provide you with notice of any material changes through
+the website, via email, or through other reasonable means. If
+you are an existing evervault user, the changes will come into
+effect on the date we specify in the notice, and your use of the
+Services after a change has taken effect constitutes your
+acceptance of the terms of the modified Agreement. You can
+access a copy of the current terms of this Agreement on our
+website at any time. You can find out when this Agreement was
+last changed by checking the &quot;Last updated&quot; date at the top of
+the Agreement.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Registration and unauthorized account use</strong></p>
+<ol>
+<li>
+<p>To access the Services, you must register for an evervault
+Account by creating a user name, password and providing other
+information. You agree to provide us with accurate, complete,
+and current registration information about yourself. It is your
+responsibility to ensure that your password remains confidential
+and secure. By registering, you agree that you are fully
+responsible for all activities that occur under your user name
+and password. We may assume that any communications we receive
+under your account have been made by you. If you are a billing
+owner, an administrator, or if you have confirmed in writing
+that you have the authority to make decisions on behalf of a
+customer (&quot;<strong>Account Administrator</strong>&quot;), you represent and
+warrant that you are authorized to make decisions on behalf of
+the Customer and agree that evervault is entitled to rely on
+your instructions.</p>
+</li>
+<li>
+<p>You are responsible for notifying us
+at <a href="mailto:support@evervault.com%20">support@evervault.com</a> if
+you become aware of any unauthorized use of or access to your
+account. You understand and agree that we may require you to
+provide information that may be used to confirm your identity
+and help ensure the security of your account. evervault will not
+be liable for any loss, damages, liability, expenses or legal
+fees that you may incur as a result of someone else using your
+password or account, either with or without your knowledge
+and/or authorization, and regardless of whether you have or have
+not advised us of such unauthorized use. You will be liable for
+losses, damages, liability, expenses and legal fees incurred by
+evervault or a third party due to someone else using your
+account. In the event that the Account Administrator or Customer
+loses access to an account or otherwise requests information
+about an evervault Account, evervault reserves the right to
+request from the Account Administrator or Customer any
+verification it deems necessary before restoring access to or
+providing information about such account in its sole discretion.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Representative</strong></p>
+<ol>
+<li>
+<p>You or the person or people creating an evervault Account
+(&quot;<strong>Representative</strong>&quot;) individually represent and warrant to
+evervault that your Representative is authorised to provide the
+relevant information described in the account details on your
+behalf and to bind you to this Agreement. We may require you or
+your Representative to provide additional information or
+documentation demonstrating your Representative&#x27;s authority.
+Without the express written consent of evervault, neither you
+nor your Representative may register or attempt to register for
+an evervault Account on behalf of a user evervault previously
+terminated from use of the Services.</p>
+</li>
+<li>
+<p>The following special requirements apply in relation to persons
+that are not at least 18 years old. If you are an individual or
+sole proprietor, and you are not at least 18 years old, but you
+are 13 years old or older, your Representative must be your
+parent or legal guardian. If you are a legal entity that is
+owned, directly or indirectly, by an individual who is not at
+least 18 years old, but is 13 years old or older, your
+Representative must either obtain the consent of your board or
+of an authorised officer to create an evervault Account. Any
+such approving board, authorised officer, parent, or legal
+guardian is responsible to evervault and is legally bound to
+this Agreement as if it had agreed to the terms of this
+Agreement itself. You may not use the Services if you are under
+13 years of age.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Verification and risk assessment</strong></p>
+<ol>
+<li>
+<p>At any time during the term of this Agreement and your use of
+the Services, we may require additional information from you to
+verify beneficial ownership or control of the business, validate
+information you provided, verify you or your Representative&#x27;s
+identity, and assess the risk associated with your business.
+This additional information may include business invoices,
+copies of government-issued identification, business licences,
+or other information related to your business, its beneficial
+owners or principals. Your failure to provide this information
+or material may result in suspension or termination of your
+evervault Account.</p>
+</li>
+<li>
+<p>You authorise us to retrieve information about you from our
+service providers and other third parties, including credit
+reporting agencies and information bureaus and you authorise and
+direct such third parties to compile and provide such
+information to us. You acknowledge that this may include your
+name, addresses, credit history, and other data about you or
+your Representative. You acknowledge that we may use your
+information to verify any other information you provide to us,
+and that any information we collect may affect our assessment of
+your overall risk to our business. You acknowledge that in some
+cases, such information may lead to suspension or termination of
+your evervault Account. evervault may periodically update this
+information as part of our underwriting criteria and risk
+analysis procedures.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Disclosures and notices; electronic signature consent</strong></p>
+<ol>
+<li>
+<p>By registering for an evervault Account, you agree that such
+registration constitutes your electronic signature, and you
+consent to electronic provision of all disclosures and notices
+from evervault, including those required by law. You also agree
+that your electronic consent will have the same legal effect as
+a physical signature. You agree that evervault can provide
+notices regarding the Services to you through our website or
+platform, or by mailing notices to the email or physical
+addresses identified in your evervault Account. Notices may
+include notifications about your evervault Account, changes to
+the Services, or other information we are required to provide to
+you. You also agree that electronic delivery of a notice has the
+same legal effect as if we provided you with a physical copy. We
+will consider a notice to have been received by you within 24
+hours of the time a notice is either posted to our website or
+emailed to you.</p>
+</li>
+<li>
+<p>You authorise us to provide notices to you via text message to
+allow us to verify your or your Representative&#x27;s control over
+your evervault Account (such as through two-step verification),
+and to provide you with other critical information about your
+evervault Account and the Services. In the event of a suspected
+or actual fraud or security threat to your evervault Account,
+evervault will use SMS, email or another secure procedure to
+contact you. Standard text or data charges may apply to such
+notices. Due to the nature of the Services, you will not be able
+to begin using the Services without agreeing to electronic
+delivery of notices. However, if you do not wish to receive
+notices electronically then you must terminate your evervault
+Account.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>evervault&#x27;s obligations, services and account support</strong></p>
+<ol>
+<li>
+<p>evervault shall provide the Services and Documentation to for
+the Fees in accordance with the terms of this Agreement.</p>
+</li>
+<li>
+<p>evervault represents and warrants to you that for a period of
+ninety (90) days from your first use of the Services, the
+Services will function in accordance with this Agreement and the
+Documentation in all material respects. In the event of a breach
+of this warranty, evervault will use its reasonable commercial
+efforts to remedy the breach or, at evervault&#x27;s discretion, may
+refund the Fees paid for access to the Services. Such remedies
+shall be the sole remedy by you against evervault for a breach
+of this warranty.</p>
+</li>
+<li>
+<p>evervault has developed and provides access to systems,
+including application programming interfaces that may be used to
+access the Services (&quot;<strong>Systems</strong>&quot;). You may use the Systems
+solely as described in the Documentation. You may manage your
+evervault Account, connect with other service providers, and
+enable additional features through the evervault dashboard
+(&quot;<strong>Dashboard</strong>&quot;), that may be used to access the Services
+Dashboard. evervault will use the Dashboard to provide you with
+information about your evervault Account. You may not use the
+Systems for any purpose, function, or feature not described in
+the Documentation or otherwise communicated to you by us. Due to
+the nature of the Services, we will update the Systems and
+Documentation from time to time, and may add or remove
+functionality. We will provide you notice in the event of
+material changes, deprecations, or removal of functionality from
+the Systems so that you may continue using the Services with
+minimal interruption.</p>
+</li>
+<li>
+<p>We will provide you with support to resolve general issues
+relating to your evervault Account and your use of the Services.
+This support includes resources and documentation that we make
+available to you through the current versions of evervault&#x27;s
+support pages, Systems documentation, and other pages on our
+website (collectively, &quot;<strong>Documentation</strong>&quot;). The most efficient
+way to get answers to your questions is to review our
+Documentation. If you still have questions after reviewing the
+Documentation, please contact us at <a href="404">support@evervault.com</a></p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Customer&#x27;s obligations and acceptable use</strong></p>
+<ol>
+<li>
+<p>By accepting using the Services, you represent and warrant
+that: (i) you are eligible to register and use the Services and
+have the authority to execute and perform the obligations
+required by this Agreement; (ii) that any information you
+provide us about your business, products, or services is
+accurate and complete; and (iii) that your employees,
+contractors and agents will at all times act consistently with
+the terms of this Agreement. The rights provided under this
+Agreement are granted to you only, and shall not be considered
+granted to any of your subsidiary or holding companies.</p>
+</li>
+<li>
+<p>You also agree to:</p>
+<p>i. provide evervault with all necessary co-operation in
+relation to this Agreement and all necessary access to such
+information as may be required by evervault, in order to
+provide the Services, including but not limited to data,
+security access information and configuration services;</p>
+<p>ii. comply with all applicable laws and regulations with respect
+to your activities under this Agreement;</p>
+<p>iii. ensure that the any person who uses the Services and the
+Documentation under or in relation to your account does so
+in accordance with the terms and conditions of this
+Agreement and you shall be responsible for any breach of
+this Agreement by any such user;</p>
+<p>iv. carry out all other Customer responsibilities set out in
+this Agreement in a timely and efficient manner. In the
+event of any delays in your provision of such assistance as
+agreed by the parties, evervault may adjust any agreed
+timetable or delivery schedule as reasonably necessary;</p>
+<p>v. ensure that the authorised users use the Services and the
+Documentation in accordance with the terms and conditions of
+this Agreement and you shall be responsible for any user&#x27;s
+breach of this Agreement;</p>
+<p>vi. obtain and shall maintain all necessary licences, consents,
+and permissions necessary for evervault, its contractors and
+agents to perform their obligations under this Agreement,
+including without limitation the Services;</p>
+<p>vii. ensure that your network and systems comply with the
+relevant specifications provided by evervault from time to
+time;</p>
+<p>viii. us all reasonable endeavours to prevent any unauthorised
+access to, or use of, the Services and/or the
+Documentation and, in the event of any such unauthorised
+access or use, promptly notify evervault; and</p>
+<p>ix. be, to the extent permitted by law and except as otherwise
+expressly provided in this Agreement, solely responsible for
+procuring, maintaining and securing its network connections
+and telecommunications links from its systems to
+evervault&#x27;s data centres, and all problems, conditions,
+delays, delivery failures and all other loss or damage
+arising from or relating to the Customer&#x27;s network
+connections or telecommunications links or caused by the
+internet.</p>
+</li>
+<li>
+<p>Except to the extent expressly permitted by applicable law, you
+shall not:</p>
+<p>i. attempt to copy, modify, duplicate, create derivative works
+from, frame, mirror, republish, download, display, transmit,
+or distribute all or any portion of means the online
+software applications provided by evervault as part of the
+Services (&quot;<strong>Software</strong>&quot;), Services and/or Documentation (as
+applicable) in any form or media or by any means; or</p>
+<p>i. attempt to de-compile, reverse compile, disassemble, reverse
+engineer or otherwise reduce to human-perceivable form all
+or any part of the evervault software or Services; or</p>
+<p>ii. access all or any part of the Services and Documentation in
+order to build a product or service which competes with the
+Services and/or the Documentation; or</p>
+<p>iii. use the Services and/or Documentation to provide services
+to third parties, e.g. on a service bureau basis; or</p>
+<p>iv. license, sell, rent, lease, transfer, assign, distribute,
+display, disclose, or otherwise commercially exploit, or
+otherwise make the Services and/or Documentation available
+to any third party; or</p>
+<p>v. attempt to obtain, or assist third parties in obtaining,
+access to the Services and/or Documentation, other than as
+provided under this clause; or</p>
+<p>vi. introduce or permit the introduction of, any Virus or
+Vulnerability into evervault&#x27;s network and information
+systems.</p>
+</li>
+<li>
+<p>You represent and warrant that you will not use our Services:</p>
+<p>i. for an unauthorised, fraudulent or illegal purpose;</p>
+<p>ii. to attempt to circumvent applicable law or a third party&#x27;s
+lawful rights;</p>
+<p>iii. in any manner that interferes with the normal operation of
+the Services;</p>
+<p>iv. to incorporate any material to which you do not possess all
+necessary rights or which infringes or misappropriates any
+intellectual property or proprietary right of any party,
+including, without limitation, any patent, copyright,
+trademark, trade secret or moral right or any right of
+publicity or privacy;</p>
+<p>v. to access, store, distribute or transmit any Viruses;</p>
+<p>vi. to access, store, distribute or transmit any material is
+unlawful, harmful, threatening, defamatory, obscene,
+infringing, harassing or racially or ethnically offensive,
+facilitates illegal activity, depicts sexually explicit
+images, promotes unlawful violence, is discriminatory based
+on race, gender, colour, religious belief, sexual
+orientation, disability, or is otherwise illegal or causes
+damage or injury to any person or property;</p>
+<p>vii. to send any unsolicited or unauthorized advertising,
+promotional materials, &#x27;junk mail&#x27;, &#x27;spam&#x27;, &#x27;chain
+letters&#x27;, &#x27;pyramid schemes&#x27;, or any other form of such
+solicitation; or</p>
+<p>viii. to exploit children or minors.</p>
+</li>
+<li>
+<p>For the purpose of this Agreement, &quot;<strong>Virus</strong>&quot; means any thing
+or device (including any software, code, file or programme)
+which may: prevent, impair or otherwise adversely affect the
+operation of any computer software, hardware or network, any
+telecommunications service, equipment or network or any other
+service or device; prevent, impair or otherwise adversely affect
+access to or the operation of any programme or data, including
+the reliability of any programme or data (whether by
+rearranging, altering or erasing the programme or data in whole
+or part or otherwise); or adversely affect the user experience,
+including worms, trojan horses, viruses and other similar things
+or devices. &quot;<strong>Vulnerability</strong>&quot; means a weakness in the
+computational logic (for example, code) found in software and
+hardware components that when exploited, results in a negative
+impact to the confidentiality, integrity, or availability, and
+the term Vulnerabilities shall be construed accordingly.</p>
+</li>
+<li>
+<p>evervault reserves the right, without liability or prejudice to
+its other rights, to refuse, condition, or suspend (with notice
+to you where practicable) access to the Services that we
+believe: (i) may violate this Agreement or other agreements you
+may have with evervault;; or (ii) expose you, evervault, or
+others to material risks which in evervault&#x27;s opinion, are
+unacceptable. If we suspect or know that you are using or have
+used the Services for fraudulent or illegal purposes, we may
+share any information related to such activity with the
+appropriate financial institution, regulatory authority, or law
+enforcement agency consistent with our legal obligations. This
+information may include information about you, your evervault
+Account, your customers, and transactions made through your use
+of the Services.</p>
+</li>
+<li>
+<p>evervault is not responsible for the products or services you
+publicize or sell. You affirm that you are solely responsible
+for the nature and quality of the products or services you
+provide, and for delivery, support, refunds, returns, and for
+any other ancillary services you provide to your customers. You
+are responsible for knowing whether a transaction initiated by
+your customer is erroneous or suspicious. You are solely
+responsible for any losses you incur due to erroneous or
+fraudulent transactions in connection with your use of the
+Services. You are solely responsible for providing support to
+your customers regarding transaction receipts, product or
+service delivery, support, returns, refunds, and any other
+issues related to your products and services and business
+activities. We are not responsible for providing support for the
+Services to your customers unless we agree to do so in a
+separate agreement with you or one of your customers.</p>
+</li>
+</ol>
+</li>
+</ol><p><strong>Data Usage, Privacy, Security and Confidentiality</strong></p><ol start="8">
+<li>
+<p><strong>Data Usage Overview</strong></p>
+<ol>
+<li>
+<p>Protecting, securing, and maintaining the information processed
+and handled through the Services is one of our top priorities,
+and it should be yours too. This section describes our
+respective obligations when handling and storing information
+connected with the Services.</p>
+</li>
+<li>
+<p>The following terms used in this section relate to data provided
+to evervault by you or your customers, or received or accessed
+by you through your use of the Services:</p>
+<p>a. &quot;<strong>Data Controller</strong>&quot; means the entity that alone or jointly
+determines the purposes and means of processing of personal
+data;</p>
+<p>b. &quot;<strong>Data Processor</strong>&quot; means the entity which processes
+personal data on behalf of the Data Controller;</p>
+<p>c. &quot;<strong>Personal Data</strong>&quot; means information that directly or
+indirectly identifies a specific living person (not a
+company, legal entity, or machine) and is transmitted to or
+accessible through the Services.</p>
+<p>d. &quot;<strong>evervault Data</strong>&quot; means details of the transactions over
+evervault Systems, information used in fraud detection and
+analysis, aggregated or anonymized information generated
+from Data, and any other information created by or
+originating from evervault or the Services.</p>
+<p>e. &quot;<strong>User Data</strong>&quot; means information that describes your
+business and its operations, your products or services, and
+orders placed by customers.</p>
+<p>f. The term &quot;<strong>Data</strong>&quot; used without a modifier means all
+Personal Data, User Data, Payment Data, and evervault Data.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>evervault as Data Controller</strong></p>
+<ol>
+<li>Protection of Personal Data is extremely important to us. Our
+Privacy Policy explains how and for what purposes we collect,
+use, retain, disclose, and safeguard Personal Data as Data
+Controller for example to mitigate fraud, financial loss, or
+other harm to users, customers and evervault. You acknowledge
+that evervault is the Data Controller with respect to the
+processing of Personal Data for which evervault determines the
+purposes and essential means of processing as set out in
+evervault&#x27;s Privacy Policy available at
+<a href="privacy">https://evervault.com/legal/privacy</a> as it is amended from time
+to time. We do not provide Personal Data to unaffiliated parties
+for marketing their products to you. You understand evervault&#x27;s
+use of Data for the purposes and in a manner consistent with
+this section.</li>
+</ol>
+</li>
+<li>
+<p><strong>evervault of Data Processor</strong></p>
+<ol>
+<li>
+<p>To the extent that we are a Data Processor where we process
+Personal Data to provide the Services to you, we will do so in
+accordance with the terms of this Agreement and lawful
+instructions reasonably given by you to us from time to time,
+and we will employ appropriate technical and organisational
+measures to protect such Personal Data. evervault will only use
+User Data as permitted by this Agreement, by other agreements
+between you and us, or as otherwise directed or authorised by
+you.</p>
+</li>
+<li>
+<p>evervault will provide some or all of the Services from systems
+located within the United States or other countries outside of
+Ireland. As such, it is your obligation to disclose to your
+customers that Personal Data may be transferred, processed and
+stored outside of Ireland and, as set forth in our Privacy
+Policy, may be subject to disclosure as required by applicable
+laws, and to obtain from your customers all necessary consents
+under applicable laws in relation to the foregoing. If we become
+aware of an unauthorised acquisition, disclosure or loss of
+Personal Data on our systems, we will notify you consistent with
+our obligations under applicable law. We will also notify you
+and provide you sufficient information regarding the
+unauthorised acquisition, disclosure or loss to help you
+mitigate any negative impact on your customer.</p>
+</li>
+<li>
+<p>We will not be liable for any claim brought by a data subject
+arising from any action or omission by us, to the extent that
+such action or omission resulted from your instructions.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Your data privacy obligations</strong></p>
+<ol>
+<li>
+<p>You agree to the terms of our Privacy Policy, which we may
+update from time to time.</p>
+</li>
+<li>
+<p>You affirm that you are now and will continue to be compliant
+with all applicable laws governing the privacy, protection, and
+your use of Data that you provide to us or access through your
+use of the Services. You will provide evidence of your
+compliance to us upon our request. If you do not provide
+evidence of such compliance to our satisfaction, we may suspend
+your evervault Account or terminate this Agreement. You also
+affirm that you have obtained all necessary rights and consents
+under applicable laws to disclose to evervault -- or allow
+evervault to collect, use, retain, and disclose -- any Personal
+Data that you provide to us or authorise us to collect,
+including Data that we may collect directly from customers using
+cookies or other similar means. You may not use any Personal
+Data to market to customers unless you have received the express
+consent from a specific customer to do so.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>evervault&#x27;s Security Controls</strong></p>
+<ol>
+<li>
+<p>evervault is responsible for protecting the security of Data in
+our possession. We will maintain commercially reasonable
+administrative, technical, and physical procedures to protect
+User Data and Personal Data stored in our servers from
+unauthorised access, accidental loss, modification, or breach,
+and we will comply with applicable laws when we handle User and
+Personal Data. However, no security system is impenetrable and
+we cannot guarantee that unauthorised parties will never be able
+to defeat our security measures or misuse any Data in our
+possession. .In our sole discretion, we may take any action,
+including suspension of your evervault Account, to maintain the
+integrity and security of the Services or Data, or to prevent
+harm to you, us, customers, or others. You waive any right to
+make a claim against us for losses you incur that may result
+from such actions where we can demonstrate that there was a
+reasonable basis for such action.</p>
+</li>
+<li>
+<p>You are solely responsible for the security of any Data on your
+website, your servers, in your possession, or that you are
+otherwise authorised to access or handle. You provide User Data
+and Personal Data to evervault with the understanding that any
+security measures we provide may not be appropriate or adequate
+for your business, and you agree to implement security
+procedures and controls (&quot;Security Controls&quot;) and any additional
+controls that meet your specific requirements. You are
+responsible for assessing the security requirements of your
+business, and selecting and implementing Security Controls
+appropriate to mitigate your exposure to security incidents. We
+may provide Security Controls as part of the Services, or
+suggest that you implement specific Security Controls. However,
+your responsibility for securing your business is not diminished
+by any Security Controls that we provide or suggest, and if you
+believe that the Security Controls we provide are insufficient,
+then you must separately implement additional controls that meet
+your requirements. You warrant that you have conducted
+appropriate due diligence on the evervault Services and Security
+Controls necessary for your business.</p>
+</li>
+<li>
+<p>If we believe that a security breach, leak, loss, or compromise
+of data has occurred on your systems, website, or app affecting
+your compliance with this Agreement, we may require you to
+permit a third-party auditor approved by us to conduct a
+security audit of your systems and facilities, and you must
+fully cooperate with any requests for information or assistance
+that the auditor makes to you as part of the security audit.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Data Processing Agreement</strong></p>
+<ol>
+<li>Our obligations as Data Processor are set out in our Data
+Processing Agreement located here:
+<a href="data-processing-agreement">https://evervault.com/legal/data-processing-agreement</a>. Please
+contact us if you would like a signed soft copy.</li>
+</ol>
+</li>
+<li>
+<p><strong>Confidentiality</strong></p>
+<ol>
+<li>
+<p>Each party receiving Confidential Information
+(&quot;<strong>Recipient</strong>&quot;) relating to the other or its Affiliates
+(&quot;<strong>Disclosing Party</strong>&quot;) shall keep that information
+confidential and in accordance with this clause 13. In
+particular the Recipient shall:</p>
+<p>a. use the Disclosing Party&#x27;s Confidential Information solely
+for the purposes of fulfilling its obligations under this
+Agreement;</p>
+<p>b. keep the Disclosing Party&#x27;s Confidential Information secure
+and take no lesser security measures and degree of care to
+protect the Disclosing Party&#x27;s Confidential Information
+than the Recipient applies to its own confidential or
+proprietary information; and</p>
+<p>c. not disclose the Disclosing Party&#x27;s Confidential
+Information to any third party except with the prior written
+consent of the Disclosing Party or in accordance with this
+clause 13.</p>
+</li>
+<li>
+<p>Notwithstanding clause 14.1, the Recipient may disclose the
+Disclosing Party&#x27;s Confidential Information to its and its
+affiliates&#x27; directors, employees, agents and professional
+advisors, and to any other third party (including in the case of
+evervault, a sub-contractor), in each case who are directly
+involved in, and need to know such Confidential Information for
+the purpose of the provision or receipt of the Services and the
+Recipient shall ensure that each such person is subject to
+confidentiality obligations equivalent to those set out in this
+clause 13.</p>
+</li>
+<li>
+<p>The obligations of confidentiality set out in this clause 13
+shall not apply:</p>
+<p>a. where the Disclosing Party has given its specific prior
+written consent to the disclosure;</p>
+<p>b. to Confidential Information which at the Effective Date is,
+or becomes at any time after that date, within the public
+domain (other than as a result of a breach of this clause
+13);</p>
+<p>c. where the Recipient can show that the information was
+obtained from a third party lawfully;</p>
+<p>d. where disclosure is required to any potential or actual
+purchaser of or potential or actual investor in the
+Recipient or their advisers or financiers (including,
+without limitation, as part of a due diligence process),
+provided that any such person enters into confidentiality
+undertakings materially equivalent to the provisions of this
+clause 13;</p>
+<p>e. where the information was developed by, or for, the
+Recipient independently of any information received under
+this Agreement and without dependence on, reference to, or
+knowledge of, that information; or</p>
+<p>f. where the Recipient is required to disclose the Disclosing
+Party&#x27;s Confidential Information by a court or regulatory
+authority.</p>
+</li>
+<li>
+<p>&quot;<strong>Confidential Information</strong>&quot; means all information which
+relates to the business affairs, finance, products, data,
+databases, specifications, documentation, software listings,
+developments, trade secrets, know how, personnel, customers and
+suppliers of either party, provided that such information is
+marked or identified as confidential, restricted, proprietary or
+with a similar designation or, if unmarked, which the Recipient
+should reasonably know is confidential whether disclosed orally
+or in writing.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Fees and taxes</strong></p>
+<ol>
+<li>
+<p>evervault will provide the Services to you at the rates and for
+the fees (&quot;<strong>Fees</strong>&quot;) described on the Pricing page
+(<a href="../pricing">https://evervault.com/pricing</a>) and incorporated into this
+Agreement. We may revise the Fees at any time. However, we will
+provide you with at least 30 days&#x27; advance notice before
+revisions become applicable to you (or a longer period of notice
+if this is required by applicable law).</p>
+</li>
+<li>
+<p>You are also obligated to pay all taxes, fees and other charges
+imposed by any governmental authority, including any value added
+tax, goods and services tax, sales tax and applicable indirect
+and transactional taxes (&quot;<strong>Taxes</strong>&quot;) on the Services provided
+under this Agreement. Our Fees are exclusive of any applicable
+Taxes, except as expressly stated to the contrary. You have sole
+responsibility and liability for: (i) determining what, if any,
+Taxes apply to the sale of your products and services,
+acceptance of donations, or payments you receive in connection
+with your use of the Services; and (ii) assessing, collecting,
+reporting, and remitting Taxes for your business to the
+appropriate tax and revenue authorities. If we are required to
+withhold any Taxes, or we are unable to validate any tax-related
+identification information you provide to us, we may deduct such
+Taxes from amounts otherwise owed and pay them to the
+appropriate taxing authority.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Term and termination</strong></p>
+<ol>
+<li>
+<p>This Agreement is effective upon the date you first access or
+use the Services (&quot;<strong>Effective Date</strong>&quot;) and continues until
+terminated by you or evervault. You may terminate this Agreement
+by closing your evervault Account at any time and ceasing to use
+the Services. If you use the Services again or register for
+another evervault Account, you are consenting to and will be
+subject to the terms of this Agreement. We may terminate this
+Agreement or close your evervault Account at any time for any
+reason by providing you with reasonable advance notice (or such
+period of notice as required by applicable law). We may suspend
+your evervault Account or terminate this Agreement, if: (i) we
+determine in our sole discretion that you are ineligible for the
+Services, including because of suspicions of significant fraud
+or credit risk, or any other risks associated with your
+evervault Account; (ii) you use the Services in a prohibited
+manner or otherwise do not comply with any of the provisions of
+this Agreement; (iii) any law requires us to do so; or (iv) we
+are otherwise entitled to do so under this Agreement.</p>
+</li>
+<li>
+<p>Termination does not immediately relieve you of obligations
+incurred by you under this Agreement. In addition, upon
+termination you understand and agree that: (i) all licences
+granted to you by evervault under this Agreement will end; (ii)
+we reserve the right (but have no obligation except in relation
+to Personal Data) to delete and destroy all of your information
+and account data stored on our servers; (iii) we will not be
+liable to you for compensation, reimbursement, or damages
+related to your use of the Services, or any termination or
+suspension of the Services or deletion of your information or
+account data; (iv) you shall make no further use of any
+equipment, property, Documentation and other items (and all
+copies of them), and (v) you are still liable to us for any Fees
+or fines, or other financial obligation incurred by you or
+through your use of the Services prior to termination. Any
+rights, remedies, obligations or liabilities of the parties that
+have accrued up to the date of termination, including the right
+to be reimbursed for all Services offered up to the date of
+termination and claim damages in respect of any breach of the
+agreement which existed at or before the date of termination
+shall not be affected or prejudiced. With regard to
+reimbursement of Fees, you acknowledge and agree that you may
+choose to pay fees on a monthly basis in which case you control
+the payment of fees and when you terminate. On this basis, we
+will not reimburse you for any Fees on termination.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Third party providers</strong></p>
+</li>
+</ol><p>You acknowledge that the Services may be used in conjunction with third
+party websites and services. You access the content of third party
+websites, and correspond with, and purchase products and services from
+third parties via third-party websites solely at your own risk.
+evervault makes no representation, warranty or commitment and shall have
+no liability or obligation whatsoever in relation to the content or use
+of, or correspondence with, any such third-party website, or any
+transactions completed, and any contract entered into by you, with any
+such third party. Any contract entered into and any transaction
+completed via any third-party website is between you and the relevant
+third party, and not evervault. evervault recommends that you refer to
+the third party&#x27;s website terms and conditions and privacy policy prior
+to using the relevant third-party website. evervault does not endorse or
+approve any third-party website nor the content of any of the
+third-party website made available via the Services.</p><ol start="18">
+<li>
+<p><strong>Proprietary rights</strong></p>
+<ol>
+<li>
+<p>In this Agreement, &quot;<strong>IP</strong>&quot; means patents, utility models,
+rights to inventions, copyright and neighbouring and related
+rights, trade marks, service marks, logos and designs, business
+names and domain names, rights in get-up and trade dress,
+goodwill and the right to sue for passing off or unfair
+competition, rights of publicity, rights in designs, database
+rights, rights to use, and protect the confidentiality of,
+confidential information (including know-how and trade secrets),
+moral rights and all other intellectual property rights, in each
+case whether registered or unregistered and including all
+applications and rights to apply for and be granted, renewals or
+extensions of, and rights to claim priority from, such rights
+and all similar or equivalent rights or forms of protection
+which subsist or will subsist now or in the future in any part
+of the world</p>
+</li>
+<li>
+<p>Subject to the terms and conditions of this Agreement, including
+the payment of the applicable Fees, evervault hereby grants you,
+solely during the term of this Agreement, a non-exclusive,
+non-transferable, non-sublicensable right to access and use the
+Services, the Dashboard and the Documentation for your own
+commercial use.</p>
+</li>
+<li>
+<p>Nothing in this Agreement affects evervault and its licensors
+rights, title, and interest in the IP (including rights in
+derivative works embodied by, or contained in the Systems, the
+Services, the Dashboard, and Documentation (collectively,
+&quot;<strong>evervault IP</strong>&quot;) or any copies thereof.</p>
+</li>
+<li>
+<p>We may make updates to the evervault IP or new Services
+available to you automatically as electronically published by
+evervault, but we may require action on your part before you may
+use the evervault IP or new Services (including activation
+through the Dashboard, or acceptance of new or additional
+terms). evervault may revoke or terminate this licence at any
+time if you use evervault IP in a manner prohibited by this
+Agreement. Except as expressly stated herein, this Agreement
+does not grant you any rights to, under or in, any patents,
+copyright, database right, trade secrets, trade names, trade
+marks (whether registered or unregistered), or any other rights
+or licences in respect of the Services or the Documentation.</p>
+</li>
+<li>
+<p>You may not: (i) claim or register ownership of evervault IP on
+your behalf or on behalf of others; (ii) sublicence any rights
+in evervault IP granted by us; (iii) import or export any
+evervault IP to a person or country in violation of any
+country&#x27;s export control Laws; (iv) use evervault IP in a manner
+that violates this Agreement or laws; or (v) attempt to do any
+of the foregoing.</p>
+</li>
+<li>
+<p>You hereby grant evervault a non-exclusive, non-transferable
+licence to use any IP that you own or have a licence to use and
+which is necessary for evervault to use or acces to provide the
+Services.</p>
+</li>
+<li>
+<p>You may choose to or we may invite you to submit comments or
+ideas about improvements to the Services, our Systems, our
+platform, or any other component of our products or services
+(&quot;<strong>Ideas</strong>&quot;). If you submit an Idea to us, we will presume that
+your submission was voluntary, unsolicited by us, and delivered
+to us without any restrictions on our use of the Idea. You also
+agree that evervault has no fiduciary or any other obligation to
+you in connection with any Idea you submit to us, and that we
+are free to use your Ideas without any attribution or
+compensation to you.</p>
+</li>
+<li>
+<p>evervault has developed and provides access to the Systems that
+may be used to access the Services. You may use the Systems
+solely as described in the Documentation. You may manage your
+evervault Account, connect with other service providers, and
+enable additional features through the Dashboard. evervault will
+use the Dashboard to provide you with information about your
+evervault Account. You may not use the Systems for any purpose,
+function, or feature not described in the Documentation or
+otherwise communicated to you by us. Due to the nature of the
+Services, we will update the Systems and Documentation from time
+to time, and may add or remove functionality. We will provide
+you notice in the event of material changes, deprecations, or
+removal of functionality from the Systems so that you may
+continue using the Services with minimal interruption.</p>
+</li>
+<li>
+<p>This Agreement shall not prevent evervault from entering into
+similar agreements with third parties, or from independently
+developing, using, selling or licensing documentation, products
+and/or services which are similar to those provided under this
+Agreement.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>IP Indemnity</strong></p>
+<ol>
+<li>
+<p>evervault shall defend the Customer from and against any claims
+by a third party that its intellectual property rights have been
+infringed by the receipt, possession or use of the Services
+(&quot;<strong>IPR Claim</strong>&quot;) and indemnify and hold the Customer harmless
+from and against any damages finally awarded by a court of
+competent jurisdiction or required to be paid under the terms of
+a settlement as a direct result of the IPR Claim provided that:</p>
+<p>a. the Customer promptly notifies the Supplier in writing on
+becoming aware of any reasonably likely or actual IPR Claim
+(such notice to include full details as to the nature and
+basis of the IPR Claim);</p>
+<p>b. the Customer makes no admission of liability, communication
+or payment to the third party making the IPR Claim or agrees
+any settlement or compromise of the relevant IPR Claim
+without the prior written consent of the Supplier;</p>
+<p>c. the Supplier is granted, at its request, the sole control
+and conduct of the defence of the IPR Claim and of any
+related settlement or negotiations; and</p>
+<p>d. the Customer, at the Supplier&#x27;s request and expense,
+provides the Supplier with all reasonable assistance,
+information and authority, and acts in accordance with the
+reasonable instructions of the Supplier.</p>
+</li>
+<li>
+<p>The Supplier shall not have any liability or obligation under
+this clause 19 in respect of any IPR Claim to the extent that it
+results from or arises in connection with:</p>
+<p>a. the Customer&#x27;s breach of this Agreement or the terms of any
+documents or materials provided by evervault to the
+Customer;</p>
+<p>b. any failure by the Customer to implement changes,
+replacements or new releases where the infringement would
+have been avoided or mitigated by such changes, replacements
+or new releases;</p>
+<p>c. the Customer&#x27;s wilful misconduct or negligence.</p>
+</li>
+<li>
+<p>If any IPR Claim is made or is reasonably likely to be made
+against the Customer, evervault may at its sole option and
+expense, and the Customer shall permit evervault to:</p>
+<p>a. procure for the Customer the right to continue using the
+Services (or any part thereof);</p>
+<p>b. modify or replace the infringing part of the Services (or
+any part thereof) to avoid the infringement or alleged
+infringement; or</p>
+<p>c. on immediate written notice, terminate this Agreement or the
+Customer&#x27;s licence and access to the Services (or the
+infringing part therein).</p>
+</li>
+<li>
+<p>The remedies in this clause 19 are the Customer&#x27;s sole and
+exclusive remedies and the Supplier&#x27;s sole liabilities in
+respect of any actual, alleged or reasonably likely IPR Claim.
+Nothing in this Agreement shall restrict or limit the Customer&#x27;s
+general obligation at law to mitigate a loss it may suffer or
+incur as a result of any event that may give rise to a claim
+under this clause 19.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Your Liability for Third Party Claims Against Us</strong></p>
+<ol>
+<li>
+<p>Without limiting, and in addition to, any other obligation that
+you may owe under this Agreement, you are at all times
+responsible for the acts and omissions of your employees,
+contractors and agents, to the extent such persons are acting
+within the scope of their relationship with you.</p>
+<p>a. You agree to defend evervault, our affiliates, and their
+respective employees, agents, and service providers (each an
+&quot;<strong>evervault Entity</strong>&quot;) against any claim, suit, demand,
+action, or proceeding (each, a &quot;<strong>Claim</strong>&quot;) brought by a
+third party against an evervault Entity, and you agree to
+fully reimburse the evervault Entities for any losses,
+costs, claims, demands, actions, proceedings, fines,
+penalties, awards, damages, compensation, settlements,
+expenses, professional costs, charges and/or liabilities
+that result from: (i) any Fees, or any other liability we
+incur that results from your use of the Services; (ii)
+wilful misconduct of your employees, contractors, or agents;
+or (iii) contractual or other relationships between you and
+customers.</p>
+</li>
+<li>
+<p>If you are using Services as a sole proprietor, please keep in
+mind that the law and the terms of this Agreement consider you
+and your business to be legally one and the same. You are
+personally responsible and liable for your use of the Services,
+payment of Fees, losses based on disputes or fraud, or for any
+other amounts you owe under this Agreement.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>No warranties and limitation of liability</strong></p>
+<ol>
+<li>
+<p>Except as expressly and specifically provided in this Agreement:</p>
+<p>a. you assume sole responsibility for results obtained from the
+use of the Services and the Documentation by you, and for
+conclusions drawn from such use. evervault shall have no
+liability for any damage caused by errors or omissions in
+any information, instructions or scripts provided to
+evervault by you in connection with the Services, or any
+actions taken by evervault at your direction;</p>
+<p>b. the Services are provided to you &quot;as is&quot; and without
+warranty of any kind, whether express, implied, statutory,
+or otherwise, and evervault hereby disclaims and excludes,
+to the maximum extent permitted by law, all other
+warranties, whether statutory, express, or implied,
+including, without limitation, non-infringement of third
+party rights, fitness for a particular purpose,
+merchantability, title and satisfactory quality</p>
+</li>
+<li>
+<p>Except to the extent prohibited by law, or to the extent that
+any statutory rights apply that cannot be excluded, limited or
+waived, evervault does not make any other warranties or
+representations of any kind, whether express, implied, statutory
+or otherwise regarding the Software or the Services including,
+without limitation in relation to the quality of the Software or
+the Services, your use of the Software or the Services being on
+an uninterrupted or error free basis, that the Services,
+Documentation and/or the information obtained by you through the
+Services will meet your requirements or that the Software or the
+Services will be free from Vulnerabilities. You acknowledge and
+agree that evervault is not responsible for any delays, delivery
+failures, or any other loss or damage resulting from the
+transfer of data over communications networks and facilities,
+including the internet, and you acknowledge that the Services
+and Documentation may be subject to limitations, delays and
+other problems inherent in the use of such communications
+facilities.</p>
+</li>
+<li>
+<p>Under no circumstances will either party be responsible or
+liable to you, whether in tort (including for negligence or
+breach of statutory duty), contract, misrepresentation,
+restitution or otherwise for any indirect, punitive, incidental,
+special, consequential, or exemplary damages (including any loss
+of profits, loss of business, depletion of goodwill and/or
+similar losses or loss or corruption of data or information, or
+pure economic loss).</p>
+</li>
+<li>
+<p>evervault shall not be liable for any loss or damage resulting
+from your use or inability to use the Services or for the
+unavailability of the Services, for lost profits, personal
+injury, or property damage, or for any other damages arising out
+of, in connection with, or relating to this Agreement or your
+use of the Services, even if such damages are foreseeable, and
+whether or not you or the evervault Entities have been advised
+of the possibility of such damages. The evervault Entities are
+not liable, and deny responsibility for, any damages, harm, or
+losses to you arising from or relating to hacking, tampering, or
+other unauthorised access or use of the Services, your evervault
+Account, or data, or your failure to use or implement anti-fraud
+measures, Security Controls, or any other data security measure.
+The evervault Entities further deny responsibility for all
+liability and damages to you or others caused by: (a) your
+access or use of the Services inconsistent with the
+Documentation; (b) any unauthorised access of servers,
+infrastructure, or data used in connection with the
+Services; (c) interruptions to or cessation of the Services; (d)
+any Viruses that may be transmitted to or through the
+Services; (e) any errors, inaccuracies, omissions, or losses in
+or to any data provided to us; (f) third-party content provided
+by you; or (g) the defamatory, offensive, or illegal conduct of
+others.</p>
+</li>
+<li>
+<p>Subject to clause 21.6, each party&#x27;s aggregate liability for all
+losses, damages, costs, charges, expenses, claims, actions,
+suits, demands, proceedings and liabilities of any nature or
+kind arising out of or in connection with this Agreement
+(whether in contract, negligence, tort, statute or otherwise)
+shall not exceed an amount equal to the Fees paid and payable by
+you to evervault during the twelve-month period immediately
+preceding the event that gave rise to the claim.</p>
+</li>
+<li>
+<p>evervault&#x27;s aggregate liability arising out of or in connection
+with the IP indemnity in clause 19 shall not exceed 250% the
+total Fees paid by the Customer under this Agreement.</p>
+</li>
+<li>
+<p>Nothing in this Agreement shall exclude or limit either party&#x27;s
+liability for death or fraud or any other liability that cannot
+be limited or excluded under applicable law.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Force majeure</strong></p>
+</li>
+</ol><p>evervault shall have no liability to you under this Agreement if it is
+prevented from or delayed in performing its obligations under this
+Agreement, or from carrying on its business, by acts, events, omissions
+or accidents beyond its reasonable control, including, without
+limitation, strikes, lock-outs or other industrial disputes (whether
+involving the workforce of evervault or any other party), failure of a
+utility service or transport or telecommunications network, act of God,
+pandemic, war, riot, civil commotion, malicious damage, compliance with
+any law or governmental order, rule, regulation or direction, accident,
+breakdown of plant or machinery, fire, flood, storm or default of
+suppliers or subcontractors, provided that you are notified of such an
+event as soon as reasonably practicable.</p><ol start="23">
+<li><strong>Waiver</strong></li>
+</ol><p>No failure or delay by a party to exercise any right or remedy provided
+under this Agreement or by law shall constitute a waiver of that or any
+other right or remedy, nor shall it prevent or restrict the further
+exercise of that or any other right or remedy. No single or partial
+exercise of such right or remedy shall prevent or restrict the further
+exercise of that or any other right or remedy.</p><ol start="24">
+<li><strong>Rights and remedies</strong></li>
+</ol><p>Except as expressly provided in this Agreement, the rights and remedies
+provided under this Agreement are in addition to, and not exclusive of,
+any rights or remedies provided by law.</p><ol start="25">
+<li>
+<p><strong>Severance</strong></p>
+<ol>
+<li>
+<p>If any provision or part-provision of this Agreement is or
+becomes invalid, illegal or unenforceable, it shall be deemed
+deleted, but that shall not affect the validity and
+enforceability of the rest of this Agreement.</p>
+</li>
+<li>
+<p>If any provision or part-provision of this Agreement is deemed
+deleted the parties shall negotiate in good faith to agree a
+replacement provision that, to the greatest extent possible,
+achieves the intended commercial result of the original
+provision.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>PCI DSS Compliance &amp; Responsibility</strong></p>
+<p>This section is applicable to Customers who purchased and have an active evervault PCI solution subscription:</p>
+<ol>
+<li>
+<p>The Customer acknowledges and agrees that while evervault provides the tools necessary to encrypt card holder data in a PCI DSS (Payment Card Industry Data Security Standard) compliant manner, it is the responsibility of the Customer to correctly and effectively implement and manage these tools within their organization and to appropriately scope and maintain PCI DSS compliance, in line with any demarcation of responsibilities agreed with evervault.</p>
+</li>
+<li>
+<p>The Customer acknowledges and agrees that while evervault provides the tools necessary to encrypt card holder data in a PCI DSS (Payment Card Industry Data Security Standard) compliant manner, it is the responsibility of the Customer to correctly and effectively implement and manage these tools within their organization and to appropriately scope and maintain PCI DSS compliance, in line with any demarcation of responsibilities agreed with evervault.</p>
+</li>
+<li>
+<p>The Customer acknowledges and agrees that while evervault provides the tools necessary to encrypt card holder data in a PCI DSS (Payment Card Industry Data Security Standard) compliant manner, it is the responsibility of the Customer to correctly and effectively implement and manage these tools within their organization and to appropriately scope and maintain PCI DSS compliance, in line with any demarcation of responsibilities agreed with evervault.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Entire agreement</strong></p>
+<ol>
+<li>
+<p>This Agreement constitutes the entire agreement between the
+parties and supersedes and extinguishes all previous agreements,
+promises, assurances, warranties, representations and
+understandings between them, whether written or oral, relating
+to its subject matter.</p>
+</li>
+<li>
+<p>Each party acknowledges that in entering into this Agreement it
+does not rely on, and shall have no remedies in respect of, any
+statement, representation, assurance or warranty (whether made
+innocently or negligently) that is not set out in this
+Agreement.</p>
+</li>
+<li>
+<p>Each party agrees that it shall have no claim for innocent or
+negligent misrepresentation or negligent misstatement based on
+any statement in this Agreement.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Assignment</strong></p>
+<ol>
+<li>
+<p>You shall not, without the prior written consent of evervault,
+assign, transfer, charge, sub-contract or deal in any other
+manner with all or any of its rights or obligations under this
+Agreement.</p>
+</li>
+<li>
+<p>evervault may at any time assign, transfer, charge, sub-contract
+or deal in any other manner with all or any of its rights or
+obligations under this Agreement.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>No partnership or agency</strong></p>
+</li>
+</ol><p>Nothing in this Agreement is intended to or shall operate to create a
+partnership between the parties, or authorise either party to act as
+agent for the other, and neither party shall have the authority to act
+in the name or on behalf of or otherwise to bind the other in any way
+(including, but not limited to, the making of any representation or
+warranty, the assumption of any obligation or liability and the exercise
+of any right or power).</p><ol start="30">
+<li><strong>Publicity</strong></li>
+</ol><p>Customer grants evervault the right to use the Customer’s company name and logo as a reference for marketing or promotional purposes on our website and in other public or private communications with our existing or potential customers, subject to the Customer’s standard trademark usage guidelines.</p><ol start="31">
+<li><strong>Responding to legal process</strong></li>
+</ol><p>evervault may respond to and comply with any writ of attachment, lien,
+levy, subpoena, warrant, or other legal order (&quot;<strong>Legal Process</strong>&quot;) that
+we believe to be valid. evervault will review a Legal Process to ensure
+that it is lawful on its face. If there is a reasonable doubt as to the
+lawfulness of the Legal Process, evervault will take commercially
+reasonable steps to challenge the Legal Process. evervault may, subject
+to the terms of our Privacy Policy, hold any data as required under such
+Legal Process, even if you are receiving data on behalf of other
+parties. Where permitted by law, we will make reasonable efforts to
+provide you notice of such Legal Process by sending a copy to the email
+address we have on file for you. evervault is not responsible for any
+losses, whether direct or indirect, that you may incur as a result of
+our response or compliance with a Legal Process.</p><ol start="32">
+<li><strong>Language</strong></li>
+</ol><p>The parties hereby acknowledge that they have required this Agreement
+and all related documents to be in the English language.</p><ol start="33">
+<li><strong>Governing law</strong></li>
+</ol><p>This Agreement and any dispute or claim arising out of or in connection
+with it or its subject matter or formation (including non-contractual
+disputes or claims) shall be governed by and construed in accordance
+with the laws of Ireland.</p><ol start="34">
+<li><strong>Jurisdiction</strong></li>
+</ol><p>Each party irrevocably agrees that the courts of Ireland shall have
+exclusive jurisdiction to settle any dispute or claim arising out of or
+in connection with this Agreement or its subject matter or formation
+(including non-contractual disputes or claims).</p></div></div></article></section></main></div><footer class="Footer_footer__o4_Ec" role="contentinfo"><div class="Footer_container__Mn8SS container"><img src="../images/icon-white.svg" class="Footer_logo__ZNv_V"/><div class="Footer_navigation__Yj_7L"><ul class="Footer_list__FsWR4"><li>Company</li><li><a href="../blog.html">Blog</a></li><li><a href="../careers.html">Careers</a></li><li><a href="../pricing">Pricing</a></li><li><a href="../%5b%5b...customer%5d%5d">Customers</a></li></ul><ul class="Footer_list__FsWR4"><li>Resources</li><li><a href="https://docs.evervault.com/"><span class="d-none d-xs-inline">Documentation</span><span class="d-inline d-xs-none">Docs</span></a></li><li><a href="../papers.html">Papers</a></li><li><a href="../press">Press</a></li></ul><ul class="Footer_list__FsWR4"><li>Solutions</li><li><a href="../solutions/pci">PCI Compliance</a></li><li><a href="../solutions/encryption-as-a-service">Encryption as a Service</a></li><li><a href="../solutions/credentials">Credentials Encryption</a></li><li><a href="../solutions/file-encryption">File Encryption</a></li><li><a href="../solutions/pii">PII Encryption</a></li><li><a href="../solutions/hipaa">HIPAA Compliance</a></li></ul><ul class="Footer_list__FsWR4"><li>Legal</li><li><a href="terms">Terms of Service</a></li><li><a href="privacy">Privacy Policy</a></li><li><a href="cookies">Cookies Policy</a></li><li><a href="data-processing-agreement">Data Processing</a></li></ul><ul class="Footer_list__FsWR4"><li>Compliance</li><li class="Footer_complianceLink__QDmX8"><img src="../images/logos/pci.svg"/><a href="privacy">PCI Level 1</a></li><li class="Footer_complianceLink__QDmX8"><img src="../images/logos/soc.svg"/><a href="privacy">SOC 2 Type II</a></li></ul></div></div><div class="Footer_copyright__sqw0C"><div class="Footer_copyrightContent__aDxfB container"><p>© <!-- -->2023<!-- --> evervault Inc.<!-- --> <br class="Footer_copyrightBreak__yeGun"/>All rights reserved.</p><a class="Footer_status__X2ZDd" href="https://status.evervault.com/"><p>All systems normal</p></a></div></div></footer></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{}},"page":"/legal/terms","query":{},"buildId":"ItJgTdajpMhd2ZWMz8T7d","nextExport":true,"autoExport":true,"isFallback":false,"locale":"en-US","locales":["en-US"],"defaultLocale":"en-US","scriptLoader":[]}</script></body>
+<!-- Mirrored from evervault.com/legal/terms by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Dec 2023 21:30:10 GMT -->
+</html>
