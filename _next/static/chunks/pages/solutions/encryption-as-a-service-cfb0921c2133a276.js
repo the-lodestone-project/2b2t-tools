@@ -2733,7 +2733,7 @@
                   children: [
                     (0, i.jsx)("h3", {
                       className: "mb-4",
-                      children: "Functions",
+                      children: "Players",
                     }),
                     (0, i.jsx)("p", {
                       className: "mb-0",

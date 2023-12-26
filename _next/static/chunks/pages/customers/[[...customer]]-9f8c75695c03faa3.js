@@ -1408,7 +1408,7 @@
             (0, t.jsx)(Y.ErrorBoundary, {
               fallback: (0, t.jsx)("div", {}),
               children: (0, t.jsx)($, {
-                scene: "/scene.splinecode",
+                scene: "https://prod.spline.design/bhisWEHsx7dcfxdo/scene.splinecode",
                 onLoad: () => l(!0),
                 initial: !1,
                 animate: { opacity: o ? 1 : 0 },

@@ -62,7 +62,7 @@
                     }),
                     (0, n.jsx)("p", {
                       children:
-                        "evervault provides developers with world-class infrastructure to solve complex data security and compliance problems in days, not months.",
+                        "Have you ever wondered what really goes on in the infamous and chaotic world of 2b2t, Minecraft's oldest anarchy server? Ever wished you could get rare insights into the players, places, events, and rich history that have defined this boundary-pushing community over the past decade? Our new 2b2t API gives you access to data and tools to satisfy your curiosity and enhance your experience with this one-of-a-kind server.",
                     }),
                     (0, n.jsxs)("div", {
                       children: [
@@ -105,16 +105,7 @@
         });
       }
       let _ = [
-        "/images/logos/sorare.svg",
-        "/images/logos/visa.svg",
-        "/images/logos/ness.svg",
-        "/images/logos/safety-wing.svg",
-        "/images/logos/unqork.svg",
-        "/images/logos/stitch.svg",
-        "/images/logos/xp.svg",
-        "/images/logos/vital.svg",
-        "/images/logos/resly.svg",
-        "/images/logos/humaans.svg",
+        
       ];
       var y = i(98067),
         g = i.n(y);
@@ -133,7 +124,7 @@
               (0, n.jsx)("p", {
                 className: g().subtitle,
                 children:
-                  "Engineering leaders trust evervault to protect their most sensitive data",
+                  '"I just mined one bedrock!"',
               }),
             ],
           }),
@@ -875,7 +866,7 @@
             let { active: t } = e,
               i = (0, el.useEvervault)(),
               [a, s] = (0, u.useState)([]),
-              [r, l] = (0, u.useState)("4242 4242 4242 4242"),
+              [r, l] = (0, u.useState)("X: 1234 Y: 40 Z: 345"),
               encrypt = async () => {
                 let e = await i.encrypt(r || "cardNumber"),
                   t = [...a];
@@ -890,17 +881,17 @@
                   children: [
                     (0, n.jsx)("h3", {
                       className: "mb-4",
-                      children: "UI Components",
+                      children: "Coordinates",
                     }),
                     (0, n.jsx)("p", {
                       className: "mb-0",
                       children:
-                        "Embeddable components which minimize your compliance burden by allowing you to collect and display cardholder data without touching it in plaintext.",
+                        "2b2t tools allow you to query the last recorded coordinates of any player on the server.",
                     }),
                     (0, n.jsx)(o.Z, {
                       className: "mt-16",
                       type: "tertiary",
-                      href: "https://docs.evervault.com/products/inputs",
+                      href: "/products/inputs",
                       target: "_blank",
                       size: "small",
                       children: "Read the docs",
@@ -917,7 +908,7 @@
                           className: ed().playground,
                           children: [
                             (0, n.jsx)(et.Z, { size: 12, className: "me-4" }),
-                            "Playground",
+                            "2b2t.org - CustomCapes",
                           ],
                         }),
                         (0, n.jsxs)("div", {
@@ -925,7 +916,7 @@
                           children: [
                             (0, n.jsx)("input", {
                               className: ed().input,
-                              placeholder: "4242424242424242",
+                              placeholder: "X: 1234 Y: 40 Z: 345",
                               value: r,
                               onChange: (e) => l(e.target.value),
                             }),
@@ -938,11 +929,8 @@
                                 className: "me-12",
                                 pulse: !0,
                                 children: [
-                                  (0, n.jsx)(ei.Z, {
-                                    size: 12,
-                                    className: "me-4",
-                                  }),
-                                  "Encrypt",
+                                  
+                                  "Last know location",
                                 ],
                               }),
                             }),
@@ -1098,7 +1086,7 @@
                       (0, n.jsx)(o.Z, {
                         className: "mt-16",
                         type: "tertiary",
-                        href: "https://docs.evervault.com/primitives/inbound-relay",
+                        href: "/primitives/inbound-relay",
                         target: "_blank",
                         size: "small",
                         children: "Read the docs",
@@ -1219,17 +1207,17 @@
                   children: [
                     (0, n.jsx)("h3", {
                       className: "mb-4",
-                      children: "Functions",
+                      children: "Players",
                     }),
                     (0, n.jsx)("p", {
                       className: "mb-0",
                       children:
-                        "Secure serverless functions that allow you to run logic on encrypted data, without exposing your infrastructure to sensitive information.",
+                        "Easily see who is online.",
                     }),
                     (0, n.jsx)(o.Z, {
                       className: "mt-16",
                       type: "tertiary",
-                      href: "https://docs.evervault.com/primitives/functions",
+                      href: "/primitives/functions",
                       target: "_blank",
                       size: "small",
                       children: "Read the docs",
@@ -1253,11 +1241,11 @@
                 (0, n.jsxs)("div", {
                   className: K().text,
                   children: [
-                    (0, n.jsx)("h3", { className: "mb-4", children: "Cages" }),
+                    (0, n.jsx)("h3", { className: "mb-4", children: "Queue" }),
                     (0, n.jsx)("p", {
                       className: "mb-0",
                       children:
-                        "Deploy any Docker Container to a Secure Enclave with no additional configuring or provisioning required. Verify the integrity of your code using built-in attestation.",
+                        "Ever wanted to know the current size of the queue? Now you can.",
                     }),
                     (0, n.jsxs)("div", {
                       className: K().buttonGroup,
@@ -1273,7 +1261,7 @@
                           size: "small",
                           className: "mt-16",
                           type: "transparent",
-                          href: "https://docs.evervault.com/primitives/cages",
+                          href: "/primitives/cages",
                           children: "Read the docs",
                         }),
                       ],
@@ -1619,15 +1607,39 @@
           ssr: !1,
         }),
         eC = {
-          "PCI Compliance": {
-            title: "No Rules",
+          "2b2t Wiki": {
+            title: "The 2b2t Wiki",
             description:
-              "2b2t is a Minecraft server with no rules that has been running on the same map since February 2011, and is owned anonymously. It has had over 600,000 players join throughout the years, and is often called the worst Minecraft server for the toxic playerbase it has maintained.",
+              "2b2t is a Minecraft server with no rules (IP to join: 2b2t.org) that has been running on the same map since February 2011, and is owned anonymously. It has had over 600,000 players join throughout the years, and is often called the worst Minecraft server for the toxic playerbase it has maintained. It is known for players taking the game to its absolute limits, and the server is usually at the forefront of exploits, hacks, and PvP. The server is one of the oldest running servers in Minecraft, behind MinecraftOnline and others such as Nerd.nu. The server has seen thousands of groups and bases rise and fall throughout its history. It offers players a Minecraft experience unparalleled in any other server or video game. ",
             diagram: (0, n.jsx)(ew, {}),
             button: (0, n.jsx)(o.Z, {
               size: "large",
               as: "a",
               href: "https://2b2t.miraheze.org/wiki/Front_Page",
+              children: "Learn more",
+            }),
+          },
+          "Nerds Inc": {
+            title: "Nerds Inc.",
+            description:
+              "Nerds Inc is a group of some of 2b2t's most notorious griefers and exploiters.The group is notorious for its aspirations to ‘take over the server from the inside’ and connections to the server’s administration.",
+            diagram: (0, n.jsx)(ek, {}),
+            button: (0, n.jsx)(o.Z, {
+              size: "large",
+              as: "a",
+              href: "https://2b2t.miraheze.org/wiki/Elysium",
+              children: "Learn more",
+            }),
+          },
+          "Hausemaster": {
+            title: "Hausemaster",
+            description:
+              "Hausemaster, commonly called Hause, and formerly known as Housemaster or House, is the name given to the owner of 2b2t. It is important to note that the player 'Hausemaster' and the server ownership (also often referred to as 'Hausemaster') are likely not the same person anymore. Hausemaster was originally the username used by 2b2t's founder on many websites as early as 2008, and after co-founding the 2b2t Minecraft server with georgebush420 in 2010, he gradually became more referred to as 'Hausemaster', as that was the spelling of his Minecraft username. Today, the name continues to refer to the administrator of 2b2t and its official entities, despite there being a reported change of ownership. ",
+            
+            button: (0, n.jsx)(o.Z, {
+              size: "large",
+              as: "a",
+              href: "https://2b2t.miraheze.org/wiki/Hausemaster",
               children: "Learn more",
             }),
           },
