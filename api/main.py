@@ -24,76 +24,169 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 import socks 
 import requests
-from fastapimain import app, limiter
-from events import main_events
-from ballyregan import ProxyFetcher
-from ballyregan.models import Protocols, Anonymities
 
+# import the database manager
+import database
 
+# Create a Logger
 logger = structlog.get_logger()
-fetcher = ProxyFetcher(debug=True)
 console = Console()
 layout = Layout()
 
 
+# Create a FastAPI instance with rate limiting
+limiter = Limiter(key_func=get_remote_address)
+app = FastAPI()
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+
+# Create a global variable for the queue and bots status
 global in_queue
 global bots
 in_queue = True
 bots = []
 
-def create_bot_with_options(host, port, username, version, viewer):
-    if len(bots) == 1:
-        def proxy(client):
-            # proxy = fetcher.get(
-            #     limit=1,
-            #     protocols=[Protocols.SOCKS5, Protocols.SOCKS4],
-            # )
-            # print(fetcher.get_one(protocols=[Protocols.SOCKS5, Protocols.SOCKS4]))
-            # print(proxy[0])
-            print("Connecting to proxy...")
-            sock = socks.socksocket()
-            # if "http" in str(proxy[0].protocol):
-            #     sock.set_proxy(socks.HTTP, proxy[0].ip, proxy[0].port)
-            # if "SOCKS5" in str(proxy[0].protocol):
-            #     sock.set_proxy(socks.SOCKS5, proxy[0].ip, proxy[0].port)
-            # if "SOCKS4" in str(proxy[0].protocol):
-            
-            sock.set_proxy(socks.SOCKS5, "38.154.227.167", 5868, username="mqkbkmyt", password="chamsxo84evb")
-            print("Connected to proxy")
-            sock.connect((host, port))
-            print("Connected to server")
-            client.setSocket(sock)
-            client.emit('connect')
+
+# Debug mode (use 5b5t.org for testing)
+DEBUG = False
+DEBUG_SERVER = "9b9t.org"
+DEBUG_VERSION = "1.12.2"
+
+
+# Function to wait for the queue
+def wait_for_queue(bot: lodestone.Bot):
+    print("Waiting for the queue to finish...")
+    global in_queue
+    in_queue = True
+    while in_queue:
+        # check if the bot is logged in
+        if bot.logged_in:
+            try:
+                players = len(bot.bot.players.valueOf())
+                # check if there are more then 2 players
+                if players > 2:
+                    # emit the event
+                    time.sleep(5)
+                    bot.emit("queue_finished", None)
+                    in_queue = False
+            except Exception as e:
+                print(e)
+                pass
+            # wait 10 seconds before checking again
+            time.sleep(10)
+
+
+
+
+# Function to create a bot
+def create_bot_with_options(host, port, username, version, viewer, number=None):
+    if len(bots) == 0:
+        # Create a bot that will sit in the queue and get the queue size and status
+        temp_bot = lodestone.createBot(
+            host=host,
+            port=port,
+            username=username,
+            version=version,
+            ls_skip_checks=True,
+            checkTimeoutInterval=30*1000,
+            ls_disable_viewer=viewer,
+            ls_enable_chat_logging=False,
+        )
+        bots.append(temp_bot)
+    elif len(bots) == 1 or number == 1:
+        # Create a bot that will wait for the queue and log 2b2t chat and events
+        temp_bot = lodestone.createBot(
+            host=host,
+            port=port,
+            username=username,
+            version=version,
+            ls_skip_checks=True,
+            checkTimeoutInterval=30*1000,
+            ls_disable_viewer=viewer,
+            ls_enable_chat_logging=False,
+        )
         
-        temp_bot = lodestone.createBot(
-            host=host,
-            port=port,
-            username=username,
-            version=version,
-            ls_skip_checks=True,
-            checkTimeoutInterval=100000,
-            ls_disable_viewer=viewer,
-            ls_enable_chat_logging=True,
-        )
-        print(f"Created bot {temp_bot.bot.username}")
-        bots.append(temp_bot)
-    else:
-        temp_bot = lodestone.createBot(
-            host=host,
-            port=port,
-            username=username,
-            version=version,
-            ls_skip_checks=True,
-            checkTimeoutInterval=100000,
-            ls_disable_viewer=viewer,
-            ls_enable_chat_logging=True,
-        )
-        print(f"Created bot {temp_bot.bot.username}")
-        bots.append(temp_bot)
-        main_events(bots[0])
+        temp_bot.log(f"{temp_bot.bot.username} is the second bot. Waiting for the queue to finish.", warning=True)
 
-# API Functions
+        bots.append(temp_bot)
+        
+        # Wait to pass the queue and start the anti afk
+        @temp_bot.on("queue_finished")
+        def queue_(*args):
+            
+            temp_bot.log(f"{temp_bot.bot.username} is now in the server. Starting the anti afk and logging events to database", warning=True)
+            
+            # Function to start the anti afk
+            def anti_afk_loop():
+                while True:
+                    try:
+                        yaw = 2 * random.random() * math.pi - (0.5 * math.pi)
+                        pitch = random.random() * math.pi - (0.5 * math.pi)
+                        temp_bot.bot.look(yaw, pitch, False)
+                        time.sleep(3)
+                        temp_bot.set_control_state('jump', True)
+                        if temp_bot.entity.isInWater:
+                            temp_bot.set_control_state('jump', False)
+                        time.sleep(3)
+                        temp_bot.set_control_state('jump', False)
+                        time.sleep(2)
+                        arm = 'right' if random.random() < 0.5 else 'left'
+                        temp_bot.bot.swingArm({'hand':arm})
+                    except Exception as e:
+                        print(e)
+                        pass
+            loop = threading.Thread(target=anti_afk_loop, daemon=True)
+            loop.start()
+            
+            
+            # Events to log the chat and other events to the database
+            
+            @temp_bot.on("chat")
+            def log_chat(this, sender, message, *args):
+                message = str(message).replace("\n\n","")
+                print(sender, message)
+                sender = sender.decode("utf8","ignore")
+                database.add_player_chat(sender, message)
+            
+            @temp_bot.on("entityMoved")
+            def log_coords(this, entity):
+                if entity.type == "player":
+                    print(entity.username, entity.position)
+                    position = [entity.position.x, entity.position.y, entity.position.z]
+                    database.add_player_location(entity.displayName, position)
+                
+                
+        # Start the function to wait for the queue
+        queue_waiter = threading.Thread(target=wait_for_queue, daemon=True, args=[temp_bot])
+        queue_waiter.start()
+        
+        
+        
+        # TODO: Rejoin when the bot disconnects something like this:
+        
+        # @temp_bot.on("end")
+        # def rejoin(*args):
+        #     threading.Thread(target=create_bot_with_options, daemon=True).start()
+        #     print("Bot disconnected. Reconnecting is not implemented yet.")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Create a FastAPI routs with rate limiting
 @app.get("/api/bot/status")
 @limiter.limit("20/minute")
 async def status(request: Request):
@@ -242,8 +335,9 @@ async def lookup(request: Request, username:str):
             skin = None
         
         try:
-            chat = bots[1].chat_history(username=username)
-        except:
+            chat = database.get_player_chat(username)
+        except Exception as e:
+            print(e)
             chat = []
 
         players = {"username": username,  
@@ -258,14 +352,25 @@ async def lookup(request: Request, username:str):
 
 
 if "__main__" == __name__:
-    print("Starting bots...")
-    print("Starting bot 1...")
-    bot1 = threading.Thread(target=create_bot_with_options, daemon=True, args=["2b2t.org", 25565, "CustomCapes", "1.19", True])
-    print("Starting bot 2...")
-    bot2 = threading.Thread(target=create_bot_with_options, daemon=True, args=["2b2t.org", 25565, "Douweatrijder", "1.12.2", True])
-    bot1.start()
-    time.sleep(10)
-    bot2.start()
-    print("Starting API...")
-    uvicorn.run(app, port=5000)
+    with console.status("[bold green]Starting the API...") as current:
+        if DEBUG:
+            logger.warning("Starting in debug mode")
+            bot1 = threading.Thread(target=create_bot_with_options, daemon=True, args=[DEBUG_SERVER, 25565, "CustomCapes", "1.12.2", True])
+            bot2 = threading.Thread(target=create_bot_with_options, daemon=True, args=[DEBUG_SERVER, 25565, "Douweatrijder", "1.12.2", True])
+        else:
+            bot1 = threading.Thread(target=create_bot_with_options, daemon=True, args=["2b2t.org", 25565, "CustomCapes", "1.12.2", True])
+            bot2 = threading.Thread(target=create_bot_with_options, daemon=True, args=["2b2t.org", 25565, "Douweatrijder", "1.12.2", True])
+        current.update("[bold white]Starting bot 1...\n")
+        bot1.start()
+        current.update(f"[bold green]✔️[bold white] Bot 1 started!\n")
+        for i in range(0, 11):
+            time.sleep(1)
+            current.update(f"[bold white]Starting bot 2 in {10 - i} seconds...\n")
+        current.update("[bold white]Starting bot 2...\n")
+        bot2.start()
+        current.update(f"[bold green]✔️[bold white] Bot 2 started!\n")
+        time.sleep(2)
+        current.update(f"[bold green]✔️[bold white] API is up and running!\n")
+        time.sleep(2)
+    uvicorn.run(app, port=5000, log_level="critical")
     
