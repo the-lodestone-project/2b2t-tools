@@ -17,6 +17,7 @@ from fastapi.responses import JSONResponse
 import threading
 import random
 import math
+import re
 import click
 from fastapi import FastAPI
 from slowapi.errors import RateLimitExceeded
@@ -49,8 +50,8 @@ bots = []
 
 
 # Debug mode (use 5b5t.org for testing)
-DEBUG = False
-DEBUG_SERVER = "9b9t.org"
+DEBUG = True
+DEBUG_SERVER = "5b5t.org"
 DEBUG_VERSION = "1.12.2"
 
 
@@ -121,21 +122,14 @@ def create_bot_with_options(host, port, username, version, viewer, number=None):
             def anti_afk_loop():
                 while True:
                     try:
-                        yaw = 2 * random.random() * math.pi - (0.5 * math.pi)
-                        pitch = random.random() * math.pi - (0.5 * math.pi)
-                        temp_bot.bot.look(yaw, pitch, False)
-                        time.sleep(3)
-                        temp_bot.set_control_state('jump', True)
-                        if temp_bot.entity.isInWater:
-                            temp_bot.set_control_state('jump', False)
-                        time.sleep(3)
-                        temp_bot.set_control_state('jump', False)
+                        yaw = random.randint(0, 360)
+                        temp_bot.bot.look(yaw, 0, False)
                         time.sleep(2)
-                        arm = 'right' if random.random() < 0.5 else 'left'
-                        temp_bot.bot.swingArm({'hand':arm})
+                        temp_bot.bot.swingArm({'hand':"right"})
                     except Exception as e:
                         print(e)
                         pass
+                    
             loop = threading.Thread(target=anti_afk_loop, daemon=True)
             loop.start()
             
@@ -143,18 +137,42 @@ def create_bot_with_options(host, port, username, version, viewer, number=None):
             # Events to log the chat and other events to the database
             
             @temp_bot.on("chat")
-            def log_chat(this, sender, message, *args):
-                message = str(message).replace("\n\n","")
-                print(sender, message)
-                sender = sender.decode("utf8","ignore")
-                database.add_player_chat(sender, message)
+            def log_chat(this, sender:str, message:str, *args):
+                try:
+                    message = str(message).replace("\n\n","")
+                    database.add_player_chat(sender, message)
+                except Exception as e:
+                    print(e)
+                    pass
             
             @temp_bot.on("entityMoved")
             def log_coords(this, entity):
-                if entity.type == "player":
-                    print(entity.username, entity.position)
-                    position = [entity.position.x, entity.position.y, entity.position.z]
-                    database.add_player_location(entity.displayName, position)
+                try:
+                    if entity.type == "player":
+                        print(entity.username, entity.position)
+                        position = f"{int(entity.position.x)} {int(entity.position.y)} {int(entity.position.z)}"
+                        database.add_player_location(entity.username, position)
+                except Exception as e:
+                    print(e)
+                    pass
+            
+            @temp_bot.on("playerJoined")
+            def player_join(this, player):
+                try:
+                    username = re.search(r"'username': '(\w+)'", str(player)).group(1)
+                    database.add_player_join(username)
+                except Exception as e:
+                    print(e)
+                    pass
+            
+            @temp_bot.on("playerLeft")
+            def player_leave(this, player):
+                try:
+                    username = re.search(r"'username': '(\w+)'", str(player)).group(1)
+                    database.add_player_leave(username)
+                except Exception as e:
+                    print(e)
+                    pass
                 
                 
         # Start the function to wait for the queue
