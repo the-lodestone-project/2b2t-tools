@@ -196,7 +196,7 @@ Get the 2b2t queue lengths.
 
 **Response** 
 
-```
+```json
 {
   "normal": 234,
   "priority": 22 
