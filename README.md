@@ -209,7 +209,7 @@ Get the 2b2t queue lengths.
 ## Contributors <img src="https://minecraft.wiki/images/EnvSprite_heart.png?8a428">
 | Name                | Helped With                               | GitHub   | Discord   |
 | --------------------- | ----------------------------------------- | ----------- | ----------- |
-| **Herodevc**            | database setup and ideas | Unknown | Herodevc |
+| **Herodevc**            | database setup and ideas | [@HeroDevc](https://github.com/HeroDevc) | Herodevc |
 
 
 
