@@ -95,7 +95,7 @@ Please note that Python and pip must be installed and running on your machine to
 
 
 ### Running and Logging In
-The first time you run your bot, 2b2t tools will prompt you to log in. Follow the login prompts to authenticate your bots and connect it to 2b2tr.
+The first time you run your bot, 2b2t tools will prompt you to log in. Follow the login prompts to authenticate your bots and connect it to 2b2t.org.
 
 
 </details>
