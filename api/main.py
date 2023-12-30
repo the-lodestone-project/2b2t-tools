@@ -61,8 +61,7 @@ DEBUG_VERSION = "1.12.2"
 
 
 # Function to wait for the queue
-def wait_for_queue(bot: lodestone.Bot):
-    print("Waiting for the queue to finish...")
+def wait_for_queue(bot: lodestone.Bot, current):
     global in_queue
     in_queue = True
     while in_queue:
@@ -85,15 +84,16 @@ def wait_for_queue(bot: lodestone.Bot):
 
 # Function to wait for the queue
 def wait_for_queue_then_rejoin(bot: lodestone.Bot):
-    print("Waiting for the queue to finish...")
+    
     global in_queue
     in_queue = True
     while in_queue:
         # check if the bot is logged in
         if bot.logged_in:
             try:
-                position = bots[1].bot.tablist.header.json.valueOf(
+                position = bot.bot.tablist.header.json.valueOf(
                 )["extra"][2]['extra'][0]['text'].replace("\n", "")
+                
                 # check if there are more then 2 players
                 if position == 10:
                     time.sleep(5)
@@ -109,7 +109,7 @@ def wait_for_queue_then_rejoin(bot: lodestone.Bot):
 
 
 # Function to create a bot
-def create_bot_with_options(host, port, username, version, viewer, number=None):
+def create_bot_with_options(host, port, username, version, viewer, current, number=None,):
     if len(bots) == 0 or number == 0:
         # Create a bot that will sit in the queue and get the queue size and status
         temp_bot = lodestone.createBot(
@@ -219,7 +219,7 @@ def create_bot_with_options(host, port, username, version, viewer, number=None):
 
         # Start the function to wait for the queue
         queue_waiter = threading.Thread(
-            target=wait_for_queue, daemon=True, args=[temp_bot])
+            target=wait_for_queue, daemon=True, args=[temp_bot, current])
         queue_waiter.start()
 
         # TODO: Rejoin when the bot disconnects something like this:
@@ -499,25 +499,20 @@ if "__main__" == __name__:
         if DEBUG:
             logger.warning("Starting in debug mode")
             bot1 = threading.Thread(target=create_bot_with_options, daemon=True, args=[
-                                    DEBUG_SERVER, 25565, "CustomCapes", "1.12.2", True])
+                                    DEBUG_SERVER, 25565, "CustomCapes", "1.12.2", True, current])
             bot2 = threading.Thread(target=create_bot_with_options, daemon=True, args=[
-                                    DEBUG_SERVER, 25565, "Douweatrijder", "1.12.2", True])
+                                    DEBUG_SERVER, 25565, "Douweatrijder", "1.12.2", True, current])
         else:
             bot1 = threading.Thread(target=create_bot_with_options, daemon=True, args=[
-                                    "2b2t.org", 25565, "CustomCapes", "1.12.2", True])
+                                    "2b2t.org", 25565, "CustomCapes", "1.12.2", True, current])
             bot2 = threading.Thread(target=create_bot_with_options, daemon=True, args=[
-                                    "2b2t.org", 25565, "Douweatrijder", "1.12.2", True])
-        current.update("[bold white]Starting bot 1...\n")
+                                    "2b2t.org", 25565, "Douweatrijder", "1.12.2", True, current])
+        current.update("[bold white]Starting bots...\n")
         bot1.start()
-        current.update(f"[bold green]✔️[bold white] Bot 1 started!\n")
+        # current.update(f"[bold green]✔️[bold white] Bot 1 started!\n")
         for i in range(0, 11):
             time.sleep(1)
             current.update(
                 f"[bold white]Starting bot 2 in {10 - i} seconds...\n")
-        current.update("[bold white]Starting bot 2...\n")
         bot2.start()
-        current.update(f"[bold green]✔️[bold white] Bot 2 started!\n")
-        time.sleep(2)
-        current.update(f"[bold green]✔️[bold white] API is up and running!\n")
-        time.sleep(2)
     uvicorn.run(app, port=5000, log_level="critical")
