@@ -17,7 +17,7 @@
 
 <!-- ![screenshot](https://raw.githubusercontent.com/SilkePilon/youdotcom/main/assets/images/YouDotCom.jpg) -->
 
-## About <img src="/assets/items/upscaled/writable_book.png" width="25" height="25">
+## About <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/writable_book.png" width="25" height="25">
 
 Lodestone is an incredibly powerful and flexible framework for building Minecraft bots of all kinds.
 Whether you’re new to Minecraft bot development or a seasoned pro, Lodestone provides all the tools you need to bring your bot ideas to life.
@@ -39,12 +39,12 @@ Let’s dive into how to get up and running with Lodestone.
 * <img src="https://minecraft.wiki/images/ItemSprite_oak-sign.png?e1d26"> Chat.
 * <img src="https://minecraft.wiki/images/EffectSprite_particle-speed.png?0ed64"> Plugins for many servers.
 
-## Getting Started <img src="/assets/items/upscaled/iron_sword.png" width="20" height="20">
+## Getting Started <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/iron_sword.png" width="20" height="20">
 
 > [!IMPORTANT]
 > project lodestone is still in development and has some bugs.
 
-All instalation instructons and documentation can be found [here](https://lodestone-documentation.vercel.app/ "docs") <img src="/assets/items/upscaled/arrow.png" width="25" height="25"> but here is the general idea.
+All instalation instructons and documentation can be found [here](https://lodestone-documentation.vercel.app/ "docs") <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/arrow.png" width="25" height="25"> but here is the general idea.
 
 #### Installation and Setup
 The first step is to install the Lodestone package using pip. It’s recommended to create a virtual environment first before installing:
