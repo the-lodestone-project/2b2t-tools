@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">🤖 Follow player movements, monitor chat messages and mutch more! <img src="https://minecraft.wiki/images/Invicon_Recovery_Compass.gif?c2f29"></h4>
+<h4 align="center">🤖 Follow player movements, monitor chat messages and much more! <img src="https://minecraft.wiki/images/Invicon_Recovery_Compass.gif?c2f29"></h4>
 
 <p align="center">
     <img alt="Node version" src="https://img.shields.io/static/v1?label=node&message=%20%3E=18.0.0&logo=node.js&color=2334D058" />
