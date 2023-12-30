@@ -33,36 +33,69 @@ Have you ever wondered what really goes on in the infamous and chaotic world of 
 ## Getting Started <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/iron_sword.png" width="20" height="20">
 
 > [!IMPORTANT]
-> project lodestone is still in development and has some bugs.
+> 2b2t tools makes use of 2 bots and to run you will also require 2 paid Minecraft accounts.
 
-All instalation instructons and documentation can be found [here](https://lodestone-documentation.vercel.app/ "docs") <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/arrow.png" width="25" height="25"> but here is the general idea.
+### Docker 🐳 (Not recommended at the moment)
 
-#### Installation and Setup
-The first step is to install the Lodestone package using pip. It’s recommended to create a virtual environment first before installing:
+Using Docker at the moment is not recommended as it may be slower updated than the python version below.
+
+If you have Docker installed, you can easily get 2b2t tools up and running. Follow the steps below:
+
+1. Open your terminal.
+2. Pull the Docker image from the Docker Hub using the following command:
+
 ```bash
-python3 -m venv env
-source env/bin/activate
-pip install lodestone
+docker pull SOON!
 ```
-With Lodestone installed, create a bot.py file to initialize your bot. This is where you’ll configure your bot’s username, authentication method, and other options:
-```python
-import lodestone
-bot = lodestone.createBot(
-  host='localhost',
-  port=25565,  # set this to your own LAN port
-  username='MyAwesomeBot',
-  auth='microsoft' 
-)
+
+After pulling the image, run the Docker container with the following command:
+
+```bash
+docker run -p 8000:8000 SOON!
 ```
-In this example, we’re connecting to a local Minecraft server on localhost and using Microsoft authentication.
+
+This command will start 2b2t tools and map it to port 5000 on your local machine.
+
+Open your web browser and navigate to http://localhost:5000/docs to access the docs and api endpoints.
+Please note that Docker must be installed and running on your machine to execute these steps. If you don't have Docker installed, you can download it from [here](https://docs.docker.com/get-docker/).
+
+### Python 🐍
+
+If you dont have Docker installed, you can easily get 2b2t tools up and running using python. Follow the steps below:
+
+1. Open your terminal.
+2. Clone the latest version of this repository using the following command:
+
+```bash
+git clone https://github.com/the-lodestone-project/2b2t-tools.git
+```
+
+3. Move to the new directory:
+
+```bash
+cd 2b2t-tools
+```
+
+4. Install all the dependencies using following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+After cloning the repository and installing all the dependencies, run the python script with the following command:
+
+```bash
+python api/main.py
+```
+
+This command will start 2b2t tools and map it to port 5000 on your local machine.
+
+Open your web browser and navigate to http://localhost:5000/docs to access the docs and api endpoints.
+Please note that Python and pip must be installed and running on your machine to execute these steps. If you don't have python and pip installed, you can download it from [here](https://www.python.org/downloads/).
+
 
 ##### Running and Logging In
-With your bot created, run it using:
-```bash
-python bot.py
-```
-The first time you run your bot, Lodestone will prompt you to log in using the authentication method you configured. Follow the login prompts to authenticate your bot and connect it to the Minecraft server.
-Lodestone provides multiple authentication options including Microsoft and Offline modes. See the docs for details.
+The first time you run your bot, 2b2t tools will prompt you to log in. Follow the login prompts to authenticate your bots and connect it to 2b2tr.
 
 
 </details>
