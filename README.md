@@ -65,35 +65,6 @@ The first time you run your bot, Lodestone will prompt you to log in using the a
 Lodestone provides multiple authentication options including Microsoft and Offline modes. See the docs for details.
 
 
-
-### Using the Lodestone CLI
-
-Lodestone also offers an easy to use command line intercace (CLI). This allows you to use the basic functions of lodestone.
-the CLI offers auto tab complete and has real time chat logs.
-
-To use the CLI run the following command:
-```bash
-python -m lodestone -u USERNAME -h HOST -p PORT -v VERSION
-```
-
-> [!IMPORTANT]
-> `username` and `host` are required options. <img src="https://minecraft.wiki/images/EffectSprite_particle-speed.png?0ed64">
-
-> [!WARNING]
-> Do not share your Minecraft info to anyone. <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27">
-
-<details open>
-<summary>Command line arguments</summary>
-<br>
-
-The command line arguments available are:
-
-* `--username` or `-u`: The Minecraft username the bot will log into. <img src="https://minecraft.wiki/images/EnvSprite_emote.png?37574">
-* `--host` or `-h`: The IP address or hostname of the Minecraft server. <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27">
-* `--port` or `-p`: The port number the Minecraft server is listening on. Default is 25565. <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27">
-* `--auth`: The authentication method your account requires (mojang/microsoft/cracked). Default is "microsoft". <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27">
-* `--version` or `-v` : Minecraft version to use when connecting to a server. Default is auto. <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27">
-
 </details>
 
 ## Contributors <img src="https://minecraft.wiki/images/EnvSprite_heart.png?8a428">
@@ -105,28 +76,6 @@ The command line arguments available are:
 
 ## Roadmap
 
-- [ ] Add config.json file
-- [X] Add [click](https://github.com/pallets/click)
-- [X] Change to use as Pip package for better use
-- [X] Add Discord integration
-- [ ] Add Custom code runner (a way for users to test their own bot code in a nice and simple way)
-
-## MineFlayer 🚀
-
-Mineflayer is a complex library that allows you to control Minecraft accounts through a powerful, stable, and high-level JavaScript API
-
-## Discord
-
-https://discord.gg/Fa7HZgkczz
-
-## Credits
-
-<a href="https://github.com/PrismarineJS/mineflayer" target="_blank">MineFlayer</a>
-
----
-
-Screenshots:
-[Dashboard](https://imgur.com/a/Hceiwhp)
-[Settings](https://imgur.com/a/9p1YbtE)
+- [ ] Add all features from moobot.
 
 </file-attachment-contents>
