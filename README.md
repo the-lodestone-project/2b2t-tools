@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/the-lodestone-project/2b2t-tools/"><img src="https://github.com/the-lodestone-project/2b2t-tools/blob/main/minecraft_title.png?raw=true" alt="2b2t tools" width="250"></a>
+  <a href="https://github.com/the-lodestone-project/2b2t-tools/"><img src="https://github.com/the-lodestone-project/2b2t-tools/blob/main/minecraft_title.png?raw=true" alt="2b2t tools" width="500"></a>
   <br>
 </h1>
 
