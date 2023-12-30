@@ -24,18 +24,11 @@ Have you ever wondered what really goes on in the infamous and chaotic world of 
 
 ## Features
 
-* <img src="https://minecraft.wiki/images/ItemSprite_compass.png?2364d"> Supports Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 and 1.20.1.
-* <img src="https://minecraft.wiki/images/EntitySprite_tamed-wolf.png?e90cb"> Entity knowledge and tracking.
-* <img src="https://minecraft.wiki/images/EnvSprite_non-renewable-resource.png?44294"> Block knowledge. You can query the world around you. Milliseconds to find any block.
-* <img src="https://minecraft.wiki/images/EnvSprite_sprint.png?e9341"> Physics and movement - handle all bounding boxes
-* <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27"> Attacking entities and using vehicles.
-* <img src="https://minecraft.wiki/images/EnvSprite_two-by-two.png?56fdc"> Inventory management.
-* <img src="https://minecraft.wiki/images/BlockSprite_crafting-table.png?1ea45"> Crafting, chests, dispensers, enchantment tables.
-* <img src="https://minecraft.wiki/images/EnvSprite_item.png?89d23"> Digging and building.
-* <img src="https://minecraft.wiki/images/BlockSprite_brewing-stand.png?918de"> Miscellaneous stuff such as knowing your health and whether it is raining.
-* <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27"> Activating blocks and using items.
-* <img src="https://minecraft.wiki/images/ItemSprite_oak-sign.png?e1d26"> Chat.
-* <img src="https://minecraft.wiki/images/EffectSprite_particle-speed.png?0ed64"> Plugins for many servers.
+* <img src="https://minecraft.wiki/images/ItemSprite_compass.png?2364d"> Log player join's and leave's
+* <img src="https://minecraft.wiki/images/EnvSprite_sprint.png?e9341"> Log player movement
+* <img src="https://minecraft.wiki/images/EffectSprite_strength-revision-1.png?8da27"> Log kills
+* <img src="https://minecraft.wiki/images/ItemSprite_oak-sign.png?e1d26"> Log chat messages
+* <img src="https://minecraft.wiki/images/EffectSprite_particle-speed.png?0ed64"> SQL database
 
 ## Getting Started <img src="https://github.com/the-lodestone-project/Lodestone/tree/main/assets/items/upscaled/iron_sword.png" width="20" height="20">
 
