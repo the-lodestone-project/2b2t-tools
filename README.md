@@ -102,7 +102,7 @@ The first time you run your bot, 2b2t tools will prompt you to log in. Follow th
 
 ## Using the API
 
-The 2b2t tools provides the following APIs to get bot and server info.
+2b2t tools provides the following APIs to get bot and server info.
 
 #### Bot Status
 
