@@ -94,7 +94,7 @@ Open your web browser and navigate to http://localhost:5000/docs to access the d
 Please note that Python and pip must be installed and running on your machine to execute these steps. If you don't have python and pip installed, you can download it from [here](https://www.python.org/downloads/).
 
 
-##### Running and Logging In
+### Running and Logging In
 The first time you run your bot, 2b2t tools will prompt you to log in. Follow the login prompts to authenticate your bots and connect it to 2b2tr.
 
 
