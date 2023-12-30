@@ -67,6 +67,112 @@ Lodestone provides multiple authentication options including Microsoft and Offli
 
 </details>
 
+## Using the API
+
+The 2b2t tools provides the following APIs to get bot and server info.
+
+#### Bot Status
+
+```
+GET /api/bot/status
+```
+
+Get the current status of the monitoring bot.
+
+**Response**
+
+```json
+{
+  "position": "123", 
+  "eta": "4h 10m",
+  "username": "MyBot"
+}
+```
+
+- `position`: Queue position if in queue, else `null`
+- `eta`: Estimated time to join if in queue, else `null` 
+- `username`: Bot's Minecraft username
+
+#### Random Chat Message 
+
+```
+GET /api/random 
+```
+
+Get a random chat message from the database.
+
+**Response**
+
+```
+"Goodbye cruel world" 
+```
+
+Returns a random player chat message string.
+
+#### Server Stats
+
+```
+GET /api/stats
+```  
+
+Get stats on chat messages and players seen.
+
+**Response**
+
+```json
+{
+  "total_messages": 473293,
+  "total_players": 39482  
+}
+```
+
+- `total_messages`: Total chat messages logged 
+- `total_players`: Total unique players logged
+
+#### Player Lookup
+
+```
+GET /api/lookup/{username}
+```
+
+Get detailed info on a specific player.
+
+Path parameter:
+
+- `username`: The Minecraft username 
+
+**Response**
+
+```json
+{
+  "username": "notch",
+  "uuid": "069a79f4-44e9-4726-a5be-fca90e38aaf5",
+  "first_join": "2009-05-17T12:33:14.083Z",
+  
+  // other player stats...
+}
+```
+
+#### Queue Lengths
+
+```
+GET /api/queue  
+```
+
+Get the 2b2t queue lengths.
+
+**Response** 
+
+```
+{
+  "normal": 234,
+  "priority": 22 
+}
+``` 
+
+- `normal`: Normal queue length
+- `priority`: Priority queue length
+
 ## Contributors <img src="https://minecraft.wiki/images/EnvSprite_heart.png?8a428">
 | Name                | Helped With                               | GitHub   | Discord   |
 | --------------------- | ----------------------------------------- | ----------- | ----------- |
